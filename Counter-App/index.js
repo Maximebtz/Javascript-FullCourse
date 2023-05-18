@@ -18,6 +18,5 @@ function save() {
 
 
 saveBtn.addEventListener('click', function() {
-
     save()
 })
