@@ -80,7 +80,7 @@ button:active{
     border-radius: 10px;
     line-height: 40px;
     max-width: 500px;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 
@@ -91,11 +91,11 @@ ul::-webkit-scrollbar {
 
 ul::-webkit-scrollbar-track {
     background:rgba(0, 0, 0, 0.250);
-    /* border-radius: 2px;  */
 }
 
 ul::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.500); 
+    border-radius: 2px; 
 }
 
 ul{
@@ -104,6 +104,7 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.150) 0 0px 20px;
     padding: 20px;
     overflow-y: scroll;
+    max-height: 410px;
 }
 
 li{
