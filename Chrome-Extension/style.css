@@ -1,0 +1,52 @@
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: ghostwhite;
+    width: 10em;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.150) 0 0px 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+input{
+    border:rgb(190, 190, 190) solid 1px ;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.150) 0 0px 20px;
+}
+
+input:focus{
+    border:rgb(160, 160, 160) solid 1px ;
+    outline: none;
+}
+
+button:active{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.250) 0 0px 20px;
+}
+
+ul{
+    background-color: dodgerblue;
+    margin-top: 20px;
+    line-height: 5px;
+    border-radius: 10px;
+    width: max-content;
+
+}
+
+li{
+    list-style-position: inside;
+    color: rgb(0, 65, 129);
+}
+
+a{
+    color: ghostwhite;
+}

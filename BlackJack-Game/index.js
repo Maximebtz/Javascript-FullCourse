@@ -1,6 +1,5 @@
 
-
-let cards = []  
+let cards = []
 let sum = 0
 let hasBlackJack = false
 let isAlive = false
@@ -26,13 +25,13 @@ document.getElementById("start-btn").addEventListener('click', function() {
 
 function getRandomCard() {
     
-    let randomNumer = Math.floor( Math.random()*13 ) + 1
-    if (randomNumer > 10) {
+    let randomNumber = Math.floor( Math.random()*13 ) + 1
+    if (randomNumber > 10) {
         return 10
-    } else if (randomNumer === 1) {
+    } else if (randomNumber === 1) {
         return 11
     } else {
-        return randomNumer
+        return randomNumber
     }
 
 }
