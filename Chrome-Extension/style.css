@@ -33,7 +33,7 @@ button{
 
 .btn{
     display: flex;
-    justify-content: space-b;
+    justify-content: space-between      ;
 }
 
 input{
