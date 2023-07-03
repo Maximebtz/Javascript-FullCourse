@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(225, 236, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: rgb(160, 196, 157);
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#todoCards {
+    display: flex;
+    width: 630px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#todoCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.delBtn{
+    color: rgb(160, 196, 157);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+button {
+    border: none;
+    width: 630px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin: 50px 0;
+    background-color: rgb(160, 196, 157);
+    color: rgb(247, 255, 229);
+}
+
+textarea {
+    border: solid 1px rgb(196, 215, 178);
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(247, 255, 229);
+}
+
+h1 {
+    font-size: 3em;
+}
